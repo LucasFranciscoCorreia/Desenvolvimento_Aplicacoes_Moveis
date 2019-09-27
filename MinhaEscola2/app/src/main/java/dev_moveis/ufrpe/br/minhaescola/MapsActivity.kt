@@ -1,5 +1,6 @@
 package dev_moveis.ufrpe.br.minhaescola
 
+
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
@@ -9,10 +10,16 @@ import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
+import com.google.android.gms.maps.model.Marker
+import android.content.Intent
+
+
 
 class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
 
-    private lateinit var mMap: GoogleMap
+    private lateinit var map: GoogleMap
+    /** Keeps track of the selected marker. It will be set to null if no marker is selected. */
+    private var selectedMarker: Marker? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -23,21 +30,29 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mapFragment.getMapAsync(this)
     }
 
-    /**
-     * Manipulates the map once available.
-     * This callback is triggered when the map is ready to be used.
-     * This is where we can add markers or lines, add listeners or move the camera. In this case,
-     * we just add a marker near Sydney, Australia.
-     * If Google Play services is not installed on the device, the user will be prompted to install
-     * it inside the SupportMapFragment. This method will only be triggered once the user has
-     * installed Google Play services and returned to the app.
-     */
-    override fun onMapReady(googleMap: GoogleMap) {
-        mMap = googleMap
 
-        // Add a marker in Sydney and move the camera
-        val sydney = LatLng(-34.0, 151.0)
-        mMap.addMarker(MarkerOptions().position(sydney).title("Marker in Sydney"))
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
+    override fun onMapReady(googleMap: GoogleMap) {
+        map = googleMap
+
+        // Add a marker in Recife and move the camera
+        val recife = LatLng(-8.061610, -34.882411)
+        map.addMarker(MarkerOptions().position(recife).title("Recife"))
+        map.moveCamera(CameraUpdateFactory.newLatLng(recife))
+        map.moveCamera(CameraUpdateFactory.newLatLngZoom(recife,12.0f))
+
+        // carregando escolas da prefeitura do Recife
+        val vovoArthur = LatLng(-8.068827873926091, -34.89105971935054)
+        val mrkVovoArthur = map.addMarker(MarkerOptions().position(vovoArthur).title("Creche Municipal Vovô Arthur"))
+        map.setOnMarkerClickListener { mrkVovoArthur ->  abrirJanela()}
+
+
+        // Colocar aqui o código para ativar abrir a janela de detalhes quando clicar no marker
+    }
+
+    private fun abrirJanela(): Boolean {
+        val detalhes = Intent(this, DetalhesEscola::class.java)
+        startActivity(detalhes)
+
+        return false
     }
 }
