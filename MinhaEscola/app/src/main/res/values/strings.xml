@@ -14,4 +14,9 @@
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
     <string name="title_activity_maps">Map</string>
+    <string name="nome_escola">Nome Escola:</string>
+    <string name="endereco">Endereço:</string>
+    <string name="galeria_de_fotos">Galeria de Fotos</string>
+    <string name="carregar_comentarios">Carregar Comentários</string>
+    <string name="btn_avaliar_escola">Avalie esta escola</string>
 </resources>
