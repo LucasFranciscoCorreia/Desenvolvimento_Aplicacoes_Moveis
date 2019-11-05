@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "366424942781",
+    "firebase_url": "https://minhaescola.firebaseio.com",
+    "project_id": "minhaescola",
+    "storage_bucket": "minhaescola.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:366424942781:android:574a93bb9a35b281db2fd4",
+        "android_client_info": {
+          "package_name": "com.example.minhaescola"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "366424942781-u1t6derf3vkp29vhamo2cogmress4vud.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.minhaescola",
+            "certificate_hash": "104b87d8028e3837ae9cfdfc09011f57adf7c1da"
+          }
+        },
+        {
+          "client_id": "366424942781-khbgsknmrrk0jvir7033ogjj1eso4flb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC02trFQ3yceiO1w_Ee6IrRaIfnkBYF9bc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "366424942781-khbgsknmrrk0jvir7033ogjj1eso4flb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
