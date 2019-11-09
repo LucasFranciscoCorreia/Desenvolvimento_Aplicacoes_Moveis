@@ -15,19 +15,11 @@ import com.google.android.gms.maps.model.MarkerOptions
 
 class HomeFragment : SupportMapFragment(), OnMapReadyCallback {
     private lateinit var map: GoogleMap
-//    private lateinit var homeViewModel: HomeViewModel
-////
-////
-////    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-////        homeViewModel = ViewModelProviders.of(this).get(HomeViewModel::class.java)
-////        val root = inflater.inflate(R.layout.fragment_gmaps, container, false)
-////
-////        return root
-////    }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         getMapAsync(this)
+
     }
 
     override fun onMapReady(googleMap: GoogleMap) {
