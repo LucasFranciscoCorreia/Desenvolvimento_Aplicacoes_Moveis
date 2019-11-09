@@ -1,7 +1,11 @@
 package com.example.minhaescola.dao
 
-class Escola {
-    var lat: Double = 0.0
-    var long: Double = 0.0
+import com.google.firebase.database.IgnoreExtraProperties
 
-}
+
+@IgnoreExtraProperties
+data class Escola (
+    var geometry : Localizacao? = null,
+    var id: Long? = -1,
+    var properties: Propriedades? = null
+)
