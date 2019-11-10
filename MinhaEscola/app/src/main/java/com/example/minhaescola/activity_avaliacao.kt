@@ -1,5 +1,6 @@
 package com.example.minhaescola
 
+import android.content.Intent
 import android.os.AsyncTask
 import android.os.Bundle
 import android.util.Log
@@ -9,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.minhaescola.dao.Avaliacao
 import com.example.minhaescola.dao.Escola
 import com.example.minhaescola.dao.Rate
+import com.example.minhaescola.ui.home.HomeFragment
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
@@ -21,7 +23,8 @@ class activity_avaliacao : AppCompatActivity() {
 
     private inner class PostRatesToRemote(
         val id: Long?,
-        val avaliacao: Avaliacao
+        val avaliacao: Avaliacao,
+        val activityAvaliacao: activity_avaliacao
     ) : AsyncTask<Void, Void, MutableList<Avaliacao>>(){
         var list : MutableList<Avaliacao> = ArrayList()
         override fun doInBackground(vararg p0: Void?): MutableList<Avaliacao> {
@@ -41,8 +44,10 @@ class activity_avaliacao : AppCompatActivity() {
                     val ref = FirebaseDatabase.getInstance().getReference("avaliacao").child("id_$id")
                     val key = ref.push().key
                     ref.setValue(list)
-
+//                    activityAvaliacao.voltarMapa()
+                    finish()
                 }
+
                 override fun onCancelled(p0: DatabaseError) {
                 }
             })
@@ -58,7 +63,11 @@ class activity_avaliacao : AppCompatActivity() {
         btnAvaliar.setOnClickListener {
             avaliar()
         }
-//        FirebaseDatabase.getInstance().getReference("avaliacao").push().setValue(null)
+    }
+
+    fun voltarMapa(){
+//        val mapa = Intent(applicationContext, HomeFragment::class.java)
+//        startActivity(applicationContext, mapa, null)
     }
 
     fun avaliar(){
@@ -68,10 +77,7 @@ class activity_avaliacao : AppCompatActivity() {
 
         val rate = Avaliacao(id, ratingbar.rating)
 
-        val ratelist = Rate(ArrayList())
-        ratelist.rates?.add(rate)
-
-        PostRatesToRemote(id, rate).execute()
+        PostRatesToRemote(id, rate, this).execute()
 //        FirebaseDatabase.getInstance().getReference("avaliacao").push().setValue(ratelist)
 
 

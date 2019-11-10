@@ -37,7 +37,7 @@ class DetalhesEscola : AppCompatActivity() {
                     if(list.size != 0)
                         bar.rating = stars/list.size
                     else
-                        bar.rating = 0f
+                        bar.rating = 5f
                     Log.i("rates:", "rate is $stars")
                 }
                 override fun onCancelled(p0: DatabaseError) {
@@ -60,9 +60,15 @@ class DetalhesEscola : AppCompatActivity() {
         RequestRatesFromRemote(escola.id, findViewById(R.id.ratingResult)).execute()
     }
 
+    override fun onResume(){
+        super.onResume()
+        RequestRatesFromRemote(escola.id, findViewById(R.id.ratingResult)).execute()
+    }
+
     fun carregarTelaAvaliar(view:View?) {
         val i = Intent(this, activity_avaliacao::class.java)
         i.putExtra("escola", escola)
         startActivity(i)
+//        finish()
     }
 }
