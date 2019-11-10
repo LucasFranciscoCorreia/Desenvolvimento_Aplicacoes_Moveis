@@ -1,6 +1,7 @@
 package com.example.minhaescola.dao
 
 import com.google.firebase.database.IgnoreExtraProperties
+import java.io.Serializable
 
 @IgnoreExtraProperties
 data class Propriedades (
@@ -19,4 +20,4 @@ data class Propriedades (
     var rpa: Int? = -1,
     var sala_professora: String? = null,
     var tipo_predio: String? = null
-)
+) : Serializable

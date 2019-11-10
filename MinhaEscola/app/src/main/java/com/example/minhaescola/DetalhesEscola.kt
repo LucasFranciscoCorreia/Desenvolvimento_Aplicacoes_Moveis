@@ -7,6 +7,8 @@ import androidx.core.app.ComponentActivity.ExtraData
 import androidx.core.content.ContextCompat.getSystemService
 import android.icu.lang.UCharacter.GraphemeClusterBreak.T
 import android.view.View
+import android.widget.TextView
+import com.example.minhaescola.dao.Escola
 
 
 class DetalhesEscola : AppCompatActivity() {
@@ -14,6 +16,9 @@ class DetalhesEscola : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.fragment_detalhes_escola)
+        var nome_escola : TextView = findViewById(R.id.nome_escola)
+        var escola = intent.extras?.getSerializable("escola") as Escola
+        nome_escola.text = escola.properties?.escola_nome
     }
 
     fun avaliar(view:View?) {
