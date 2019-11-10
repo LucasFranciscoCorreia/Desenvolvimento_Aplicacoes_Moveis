@@ -1,0 +1,178 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.minhaescola"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the 'MyLocation' functionality.
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:10:5-79
+15-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:10:22-76
+16
+17    <!-- Include required permissions for Google Maps API to run. -->
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\23aeb3ef263e039d0d6e841dcb7ed4e9\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\23aeb3ef263e039d0d6e841dcb7ed4e9\play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\23aeb3ef263e039d0d6e841dcb7ed4e9\play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\23aeb3ef263e039d0d6e841dcb7ed4e9\play-services-maps-17.0.0\AndroidManifest.xml:24:22-64
+20
+21    <uses-feature
+21-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\23aeb3ef263e039d0d6e841dcb7ed4e9\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+22        android:glEsVersion="0x00020000"
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\23aeb3ef263e039d0d6e841dcb7ed4e9\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+23        android:required="true" />
+23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\23aeb3ef263e039d0d6e841dcb7ed4e9\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+24
+25    <application
+25-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:12:5-44:19
+26        android:allowBackup="true"
+26-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:13:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\1859daf674031446c5f7db77cd4d69a2\core-1.1.0\AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:14:9-43
+30        android:label="@string/app_name"
+30-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:15:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:16:9-54
+32        android:supportsRtl="true"
+32-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:17:9-35
+33        android:testOnly="true"
+34        android:theme="@style/AppTheme" >
+34-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:18:9-40
+35        <activity android:name="com.example.minhaescola.activity_avaliacao" />
+35-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:20:9-65
+35-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:20:19-53
+36        <!--
+37             The API key for Google Maps-based APIs is defined as a string resource.
+38             (See the file "res/values/google_maps_api.xml").
+39             Note that the API key is linked to the encryption key used to sign the APK.
+40             You need a different API key for each encryption key, including the release key that is used to
+41             sign the APK for publishing.
+42             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+43        -->
+44        <meta-data
+44-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:29:9-31:55
+45            android:name="com.google.android.geo.API_KEY"
+45-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:30:13-58
+46            android:value="@string/google_maps_key" />
+46-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:31:13-52
+47
+48        <activity
+48-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:33:9-42:20
+49            android:name="com.example.minhaescola.MainActivity"
+49-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:34:13-41
+50            android:label="@string/app_name"
+50-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:35:13-45
+51            android:theme="@style/AppTheme.NoActionBar" >
+51-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:36:13-56
+52            <intent-filter>
+52-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:37:13-41:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:38:17-69
+53-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:38:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:40:17-77
+55-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:40:27-74
+56            </intent-filter>
+57        </activity>
+58        <activity android:name="com.example.minhaescola.DetalhesEscola" />
+58-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:43:9-52
+58-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:43:19-49
+59        <!-- Needs to be explicitly declared on P+ -->
+60        <uses-library
+60-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\23aeb3ef263e039d0d6e841dcb7ed4e9\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+61            android:name="org.apache.http.legacy"
+61-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\23aeb3ef263e039d0d6e841dcb7ed4e9\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+62            android:required="false" />
+62-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\23aeb3ef263e039d0d6e841dcb7ed4e9\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+63
+64        <service
+64-->[com.google.firebase:firebase-database:19.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\ff6e1f11726ddd28c4f81236f672853c\firebase-database-19.1.0\AndroidManifest.xml:29:9-35:19
+65            android:name="com.google.firebase.components.ComponentDiscoveryService"
+65-->[com.google.firebase:firebase-database:19.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\ff6e1f11726ddd28c4f81236f672853c\firebase-database-19.1.0\AndroidManifest.xml:30:13-84
+66            android:directBootAware="true"
+66-->[com.google.firebase:firebase-common:19.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\44872e3a464446aa712ccff729e80d19\firebase-common-19.1.0\AndroidManifest.xml:14:13-43
+67            android:exported="false" >
+67-->[com.google.firebase:firebase-database:19.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\ff6e1f11726ddd28c4f81236f672853c\firebase-database-19.1.0\AndroidManifest.xml:31:13-37
+68            <meta-data
+68-->[com.google.firebase:firebase-database:19.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\ff6e1f11726ddd28c4f81236f672853c\firebase-database-19.1.0\AndroidManifest.xml:32:13-34:85
+69                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+69-->[com.google.firebase:firebase-database:19.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\ff6e1f11726ddd28c4f81236f672853c\firebase-database-19.1.0\AndroidManifest.xml:33:17-109
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[com.google.firebase:firebase-database:19.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\ff6e1f11726ddd28c4f81236f672853c\firebase-database-19.1.0\AndroidManifest.xml:34:17-82
+71            <meta-data
+71-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\6f3ab1c3bf83f930d868eace237eee7a\firebase-auth-19.0.0\AndroidManifest.xml:36:13-38:85
+72                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+72-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\6f3ab1c3bf83f930d868eace237eee7a\firebase-auth-19.0.0\AndroidManifest.xml:37:17-109
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\6f3ab1c3bf83f930d868eace237eee7a\firebase-auth-19.0.0\AndroidManifest.xml:38:17-82
+74        </service>
+75
+76        <activity
+76-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\6f3ab1c3bf83f930d868eace237eee7a\firebase-auth-19.0.0\AndroidManifest.xml:24:9-31:50
+77            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+77-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\6f3ab1c3bf83f930d868eace237eee7a\firebase-auth-19.0.0\AndroidManifest.xml:25:13-85
+78            android:excludeFromRecents="true"
+78-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\6f3ab1c3bf83f930d868eace237eee7a\firebase-auth-19.0.0\AndroidManifest.xml:26:13-46
+79            android:exported="true"
+79-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\6f3ab1c3bf83f930d868eace237eee7a\firebase-auth-19.0.0\AndroidManifest.xml:27:13-36
+80            android:launchMode="singleTask"
+80-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\6f3ab1c3bf83f930d868eace237eee7a\firebase-auth-19.0.0\AndroidManifest.xml:28:13-44
+81            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+81-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\6f3ab1c3bf83f930d868eace237eee7a\firebase-auth-19.0.0\AndroidManifest.xml:29:13-102
+82            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+82-->[com.google.firebase:firebase-auth:19.0.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\6f3ab1c3bf83f930d868eace237eee7a\firebase-auth-19.0.0\AndroidManifest.xml:30:13-72
+83
+84        <meta-data
+84-->[com.google.maps.android:android-maps-utils:0.5] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\995e1f32a7adc79a553758ac5621fe68\jetified-android-maps-utils-0.5\AndroidManifest.xml:8:9-10:69
+85            android:name="com.google.android.gms.version"
+85-->[com.google.maps.android:android-maps-utils:0.5] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\995e1f32a7adc79a553758ac5621fe68\jetified-android-maps-utils-0.5\AndroidManifest.xml:9:13-58
+86            android:value="@integer/google_play_services_version" />
+86-->[com.google.maps.android:android-maps-utils:0.5] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\995e1f32a7adc79a553758ac5621fe68\jetified-android-maps-utils-0.5\AndroidManifest.xml:10:13-66
+87
+88        <provider
+88-->[com.google.firebase:firebase-common:19.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\44872e3a464446aa712ccff729e80d19\firebase-common-19.1.0\AndroidManifest.xml:17:9-21:39
+89            android:name="com.google.firebase.provider.FirebaseInitProvider"
+89-->[com.google.firebase:firebase-common:19.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\44872e3a464446aa712ccff729e80d19\firebase-common-19.1.0\AndroidManifest.xml:18:13-77
+90            android:authorities="com.example.minhaescola.firebaseinitprovider"
+90-->[com.google.firebase:firebase-common:19.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\44872e3a464446aa712ccff729e80d19\firebase-common-19.1.0\AndroidManifest.xml:19:13-72
+91            android:exported="false"
+91-->[com.google.firebase:firebase-common:19.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\44872e3a464446aa712ccff729e80d19\firebase-common-19.1.0\AndroidManifest.xml:20:13-37
+92            android:initOrder="100" />
+92-->[com.google.firebase:firebase-common:19.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\44872e3a464446aa712ccff729e80d19\firebase-common-19.1.0\AndroidManifest.xml:21:13-36
+93
+94        <activity
+94-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\34b452a90aeb0b6a405d6a30581bf1a0\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+95            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+95-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\34b452a90aeb0b6a405d6a30581bf1a0\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+96            android:exported="false"
+96-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\34b452a90aeb0b6a405d6a30581bf1a0\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+97            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+97-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\34b452a90aeb0b6a405d6a30581bf1a0\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+98
+99        <provider
+99-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\320abd056c52583514ea230521e9e0e5\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+100            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+100-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\320abd056c52583514ea230521e9e0e5\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+101            android:authorities="com.example.minhaescola.lifecycle-process"
+101-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\320abd056c52583514ea230521e9e0e5\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+102            android:exported="false"
+102-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\320abd056c52583514ea230521e9e0e5\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+103            android:multiprocess="true" />
+103-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\320abd056c52583514ea230521e9e0e5\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+104    </application>
+105
+106</manifest>

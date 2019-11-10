@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">366424942781-khbgsknmrrk0jvir7033ogjj1eso4flb.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://minhaescola.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">366424942781</string>
+    <string name="google_api_key" translatable="false">AIzaSyC02trFQ3yceiO1w_Ee6IrRaIfnkBYF9bc</string>
+    <string name="google_app_id" translatable="false">1:366424942781:android:574a93bb9a35b281db2fd4</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC02trFQ3yceiO1w_Ee6IrRaIfnkBYF9bc</string>
+    <string name="google_storage_bucket" translatable="false">minhaescola.appspot.com</string>
+    <string name="project_id" translatable="false">minhaescola</string>
+</resources>

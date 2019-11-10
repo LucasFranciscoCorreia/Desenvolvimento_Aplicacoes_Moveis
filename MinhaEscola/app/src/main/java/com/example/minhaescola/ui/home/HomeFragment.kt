@@ -18,10 +18,8 @@ import com.google.firebase.database.*
 
 class RequestSchoolsFromRemote(val map: GoogleMap, val context: Context?, val home : HomeFragment) : AsyncTask<Void, Void, ArrayList<Escola>>(){
     var listescolas : ArrayList<Escola> = ArrayList()
-    @Suppress("NAME_SHADOWING")
     override fun doInBackground(vararg p0: Void?): ArrayList<Escola> {
-        FirebaseDatabase.getInstance().setPersistenceEnabled(true)
-        val escolas = FirebaseDatabase.getInstance().getReference("escolas")
+        val escolas = FirebaseDatabase.getInstance().getReference("escolas" )
         val dEscolas = ArrayList<Escola>()
         escolas.addValueEventListener( object : ValueEventListener {
             override fun onDataChange(p0: DataSnapshot) {
@@ -58,13 +56,13 @@ class HomeFragment : SupportMapFragment(), OnMapReadyCallback, GoogleMap.OnMarke
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
+        FirebaseDatabase.getInstance().setPersistenceEnabled(true)
         getMapAsync(this)
 
     }
 
     override fun onMapReady(googleMap: GoogleMap) {
         map = googleMap
-
         request = RequestSchoolsFromRemote(map, this.context, this)
         request.execute()
         val recife = LatLng(-8.061610, -34.882411)

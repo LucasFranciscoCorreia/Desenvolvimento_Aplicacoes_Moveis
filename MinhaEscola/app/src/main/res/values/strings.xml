@@ -20,4 +20,7 @@
     <string name="carregar_comentarios">Carregar Comentários</string>
     <string name="btn_avaliar_escola">Avalie esta escola</string>
     <string name="txt_proc_escola">Busque a sua escola</string>
+    <string name="qualidade">Qualidade:</string>
+    <string name="avaliar_escolar">Avaliar</string>
 </resources>
+
