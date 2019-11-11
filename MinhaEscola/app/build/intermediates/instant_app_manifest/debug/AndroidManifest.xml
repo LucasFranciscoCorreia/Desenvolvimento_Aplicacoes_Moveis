@@ -44,6 +44,7 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
+            android:label="@string/app_name"
             android:value="@string/google_maps_key" />
 
         <activity
@@ -56,7 +57,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.minhaescola.DetalhesEscola" />
+        <activity
+            android:name="com.example.minhaescola.DetalhesEscola"
+            android:label="Detalhes" />
+        <activity
+            android:name="com.example.minhaescola.Rating"
+            android:label="Avaliações" />
         <!-- Needs to be explicitly declared on P+ -->
         <uses-library
             android:name="org.apache.http.legacy"

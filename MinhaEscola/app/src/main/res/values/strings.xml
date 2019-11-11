@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MinhaEscola</string>
+    <string name="app_name">Minha Escola</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Minha Escola</string>
@@ -22,5 +22,7 @@
     <string name="txt_proc_escola">Busque a sua escola</string>
     <string name="qualidade">Qualidade:</string>
     <string name="avaliar_escolar">Avaliar</string>
+    <string name="details">Detalhes</string>
+    <string name="rates">Avaliações</string>
 </resources>
 

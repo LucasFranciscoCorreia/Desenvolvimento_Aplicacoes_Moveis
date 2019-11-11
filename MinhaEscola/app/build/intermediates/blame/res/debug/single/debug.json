@@ -4,6 +4,10 @@
         "source": "C:\\Users\\lfpgc\\.gradle\\caches\\transforms-2\\files-2.1\\fbf4b565bd4a65392bfa5e0c351c91c5\\appcompat-1.1.0\\res\\layout-watch-v20\\abc_alert_dialog_title_material.xml"
     },
     {
+        "merged": "C:\\Users\\lfpgc\\Documents\\Desenvolvimento_Aplicacoes_Moveis\\MinhaEscola\\app\\build\\intermediates\\res\\merged\\debug\\layout_users_rating.xml.flat",
+        "source": "C:\\Users\\lfpgc\\Documents\\Desenvolvimento_Aplicacoes_Moveis\\MinhaEscola\\app\\src\\main\\res\\layout\\users_rating.xml"
+    },
+    {
         "merged": "C:\\Users\\lfpgc\\Documents\\Desenvolvimento_Aplicacoes_Moveis\\MinhaEscola\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
         "source": "C:\\Users\\lfpgc\\.gradle\\caches\\transforms-2\\files-2.1\\fbf4b565bd4a65392bfa5e0c351c91c5\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
@@ -48,16 +52,20 @@
         "source": "C:\\Users\\lfpgc\\.gradle\\caches\\transforms-2\\files-2.1\\34b452a90aeb0b6a405d6a30581bf1a0\\play-services-base-17.1.0\\res\\drawable-xhdpi-v4\\googleg_standard_color_18.png"
     },
     {
-        "merged": "C:\\Users\\lfpgc\\Documents\\Desenvolvimento_Aplicacoes_Moveis\\MinhaEscola\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_longpressed_holo.9.png.flat",
-        "source": "C:\\Users\\lfpgc\\.gradle\\caches\\transforms-2\\files-2.1\\fbf4b565bd4a65392bfa5e0c351c91c5\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png"
-    },
-    {
         "merged": "C:\\Users\\lfpgc\\Documents\\Desenvolvimento_Aplicacoes_Moveis\\MinhaEscola\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_slideshow.xml.flat",
         "source": "C:\\Users\\lfpgc\\Documents\\Desenvolvimento_Aplicacoes_Moveis\\MinhaEscola\\app\\src\\main\\res\\drawable\\ic_menu_slideshow.xml"
     },
     {
+        "merged": "C:\\Users\\lfpgc\\Documents\\Desenvolvimento_Aplicacoes_Moveis\\MinhaEscola\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_longpressed_holo.9.png.flat",
+        "source": "C:\\Users\\lfpgc\\.gradle\\caches\\transforms-2\\files-2.1\\fbf4b565bd4a65392bfa5e0c351c91c5\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
         "merged": "C:\\Users\\lfpgc\\Documents\\Desenvolvimento_Aplicacoes_Moveis\\MinhaEscola\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_hint_foreground_material_dark.xml.flat",
         "source": "C:\\Users\\lfpgc\\.gradle\\caches\\transforms-2\\files-2.1\\fbf4b565bd4a65392bfa5e0c351c91c5\\appcompat-1.1.0\\res\\color\\abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\lfpgc\\Documents\\Desenvolvimento_Aplicacoes_Moveis\\MinhaEscola\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_rating.xml.flat",
+        "source": "C:\\Users\\lfpgc\\Documents\\Desenvolvimento_Aplicacoes_Moveis\\MinhaEscola\\app\\src\\main\\res\\layout\\fragment_rating.xml"
     },
     {
         "merged": "C:\\Users\\lfpgc\\Documents\\Desenvolvimento_Aplicacoes_Moveis\\MinhaEscola\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
@@ -72,12 +80,12 @@
         "source": "C:\\Users\\lfpgc\\.gradle\\caches\\transforms-2\\files-2.1\\995e1f32a7adc79a553758ac5621fe68\\jetified-android-maps-utils-0.5\\res\\raw\\amu_cdata.kml"
     },
     {
-        "merged": "C:\\Users\\lfpgc\\Documents\\Desenvolvimento_Aplicacoes_Moveis\\MinhaEscola\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_gmaps.xml.flat",
-        "source": "C:\\Users\\lfpgc\\Documents\\Desenvolvimento_Aplicacoes_Moveis\\MinhaEscola\\app\\src\\main\\res\\layout\\fragment_gmaps.xml"
-    },
-    {
         "merged": "C:\\Users\\lfpgc\\Documents\\Desenvolvimento_Aplicacoes_Moveis\\MinhaEscola\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_fade_in.xml.flat",
         "source": "C:\\Users\\lfpgc\\.gradle\\caches\\transforms-2\\files-2.1\\fbf4b565bd4a65392bfa5e0c351c91c5\\appcompat-1.1.0\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\lfpgc\\Documents\\Desenvolvimento_Aplicacoes_Moveis\\MinhaEscola\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_gmaps.xml.flat",
+        "source": "C:\\Users\\lfpgc\\Documents\\Desenvolvimento_Aplicacoes_Moveis\\MinhaEscola\\app\\src\\main\\res\\layout\\fragment_gmaps.xml"
     },
     {
         "merged": "C:\\Users\\lfpgc\\Documents\\Desenvolvimento_Aplicacoes_Moveis\\MinhaEscola\\app\\build\\intermediates\\res\\merged\\debug\\animator_mtrl_fab_show_motion_spec.xml.flat",

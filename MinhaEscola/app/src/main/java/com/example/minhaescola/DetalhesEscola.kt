@@ -58,6 +58,7 @@ class DetalhesEscola : AppCompatActivity() {
         endereco.text = escola.properties?.endereco
         this.escola = escola
         RequestRatesFromRemote(escola.id, findViewById(R.id.ratingResult)).execute()
+
     }
 
     override fun onResume(){
@@ -69,6 +70,11 @@ class DetalhesEscola : AppCompatActivity() {
         val i = Intent(this, activity_avaliacao::class.java)
         i.putExtra("escola", escola)
         startActivity(i)
-//        finish()
+    }
+
+    fun carregarTelaComentarios(view:View?){
+        val i = Intent(this, Rating::class.java)
+        i.putExtra("escola", escola)
+        startActivity(i)
     }
 }

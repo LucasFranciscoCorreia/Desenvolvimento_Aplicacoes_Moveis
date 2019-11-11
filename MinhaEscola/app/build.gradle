@@ -40,7 +40,7 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.0.0'
     implementation 'com.google.firebase:firebase-database:19.1.0' // banco de dados NoSQL
     implementation 'com.google.firebase:firebase-auth:19.0.0' // Authentication(Login)
-
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
     implementation 'com.google.maps.android:android-maps-utils:0.5'
 
     testImplementation 'junit:junit:4.12'

@@ -1255,6 +1255,7 @@ id chronometer
 id clip_horizontal
 id clip_vertical
 id collapseActionView
+id comentario
 id container
 id content
 id contentPanel
@@ -1337,6 +1338,7 @@ id nav_tools
 id nav_view
 id navigation_header_container
 id never
+id nomeUsuario
 id nome_escola
 id none
 id normal
@@ -1358,6 +1360,7 @@ id progress_horizontal
 id radio
 id ratingQuality
 id ratingResult
+id ratingValue
 id right
 id right_icon
 id right_side
@@ -1423,6 +1426,7 @@ id textStart
 id textView
 id textView2
 id textView3
+id textView4
 id text_home
 id text_input_password_toggle
 id text_send
@@ -1454,6 +1458,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id usersRatingList
 id view_offset_helper
 id visible
 id webview
@@ -1544,6 +1549,7 @@ layout fragment_detalhes_escola
 layout fragment_gallery
 layout fragment_gmaps
 layout fragment_home
+layout fragment_rating
 layout fragment_send
 layout fragment_share
 layout fragment_slideshow
@@ -1572,6 +1578,7 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 layout toolbar
+layout users_rating
 menu activity_main_drawer
 menu main
 mipmap ic_launcher
@@ -1663,6 +1670,7 @@ string google_app_id
 string google_crash_reporting_api_key
 string google_maps_key
 string google_storage_bucket
+string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string menu_gallery
 string menu_home
