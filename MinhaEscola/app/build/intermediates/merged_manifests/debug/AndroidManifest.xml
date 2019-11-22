@@ -58,10 +58,10 @@
         </activity>
         <activity
             android:name="com.example.minhaescola.DetalhesEscola"
-            android:label="Detalhes" />
+            android:label="@string/details" />
         <activity
             android:name="com.example.minhaescola.Rating"
-            android:label="Avaliações" />
+            android:label="@string/rates" />
         <!-- Needs to be explicitly declared on P+ -->
         <uses-library
             android:name="org.apache.http.legacy"

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\lfpgc\\Documents\\Desenvolvimento_Aplicacoes_Moveis\\MinhaEscola\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rIN\\values-en-rIN.xml",
+            "outputFile": "D:\\mobile\\Desenvolvimento_Aplicacoes_Moveis\\MinhaEscola\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rIN\\values-en-rIN.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\lfpgc\\.gradle\\caches\\transforms-2\\files-2.1\\d66b455aa1510b66e0a1c5b34aced6d7\\jetified-navigation-ui-2.0.0\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "source": "C:\\Users\\B_89\\.gradle\\caches\\transforms-2\\files-2.1\\b3ce2af045ac6cbc2346252fe8c67317\\jetified-navigation-ui-2.0.0\\res\\values-en-rIN\\values-en-rIN.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\lfpgc\\.gradle\\caches\\transforms-2\\files-2.1\\fbf4b565bd4a65392bfa5e0c351c91c5\\appcompat-1.1.0\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "source": "C:\\Users\\B_89\\.gradle\\caches\\transforms-2\\files-2.1\\fbf4b565bd4a65392bfa5e0c351c91c5\\appcompat-1.1.0\\res\\values-en-rIN\\values-en-rIN.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\lfpgc\\.gradle\\caches\\transforms-2\\files-2.1\\1859daf674031446c5f7db77cd4d69a2\\core-1.1.0\\res\\values-en-rIN\\values-en-rIN.xml",
+                    "source": "C:\\Users\\B_89\\.gradle\\caches\\transforms-2\\files-2.1\\1859daf674031446c5f7db77cd4d69a2\\core-1.1.0\\res\\values-en-rIN\\values-en-rIN.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

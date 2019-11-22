@@ -1659,6 +1659,7 @@ string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
 string default_web_client_id
+string details
 string endereco
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
@@ -1670,7 +1671,6 @@ string google_app_id
 string google_crash_reporting_api_key
 string google_maps_key
 string google_storage_bucket
-string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string menu_gallery
 string menu_home
@@ -1694,6 +1694,7 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string project_id
 string qualidade
+string rates
 string search_menu_title
 string status_bar_notification_info_overflow
 string title_activity_maps
