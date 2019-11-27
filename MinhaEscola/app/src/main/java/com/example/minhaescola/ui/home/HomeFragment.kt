@@ -68,7 +68,7 @@ class HomeFragment : SupportMapFragment(), OnMapReadyCallback, GoogleMap.OnMarke
         val recife = LatLng(-8.061610, -34.882411)
 //        map.addMarker(MarkerOptions().position(recife).title("Recife"))
         map.moveCamera(CameraUpdateFactory.newLatLng(recife))
-        map.moveCamera(CameraUpdateFactory.newLatLngZoom(recife,12.0f))
+        map.moveCamera(CameraUpdateFactory.newLatLngZoom(recife,13.0f))
     }
 
 
@@ -78,5 +78,10 @@ class HomeFragment : SupportMapFragment(), OnMapReadyCallback, GoogleMap.OnMarke
 
         startActivity(context!!, detalhes, null)
         return false
+    }
+
+    // busca pelos dados da esccola
+    private fun firebaseSearch(searchText: String) {
+        val escolas = FirebaseDatabase.getInstance().getReference("escolas" )
     }
 }

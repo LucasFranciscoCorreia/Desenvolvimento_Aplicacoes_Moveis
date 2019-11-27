@@ -1,6 +1,7 @@
 package com.example.minhaescola
 
 import android.os.Bundle
+import android.util.Log
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.Snackbar
 import androidx.navigation.findNavController
@@ -13,13 +14,38 @@ import com.google.android.material.navigation.NavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import android.view.Menu
+import android.widget.Toast
 import com.google.android.gms.maps.SupportMapFragment
+import com.google.firebase.auth.FirebaseAuth
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
+    private lateinit var auth: FirebaseAuth
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        // Initialize Firebase Auth
+        auth = FirebaseAuth.getInstance()
+
+        auth.signInAnonymously()
+                .addOnCompleteListener(this) { task ->
+                    if (task.isSuccessful) {
+                        // Sign in success, update UI with the signed-in user's information
+
+                        val user = auth.currentUser
+                        Toast.makeText(this, "Id de Usuário: " + user!!.uid, Toast.LENGTH_SHORT).show();
+                        //updateUI(user)
+                    } else {
+                        // If sign in fails, display a message to the user.
+
+                        Toast.makeText(baseContext, "Authentication failed.",
+                                Toast.LENGTH_SHORT).show()
+                        //updateUI(null)
+                    }
+
+                    // ...
+                }
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val toolbar: Toolbar = findViewById(R.id.toolbar)

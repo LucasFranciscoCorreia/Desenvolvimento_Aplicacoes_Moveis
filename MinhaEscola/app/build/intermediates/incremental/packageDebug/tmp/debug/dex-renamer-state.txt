@@ -1,4 +1,4 @@
-#Tue Nov 19 21:55:57 BRST 2019
+#Tue Nov 26 22:20:57 BRST 2019
 base.0=D\:\\mobile\\Desenvolvimento_Aplicacoes_Moveis\\MinhaEscola\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
