@@ -1,7 +1,7 @@
-#Tue Nov 26 22:20:57 BRST 2019
-base.0=D\:\\mobile\\Desenvolvimento_Aplicacoes_Moveis\\MinhaEscola\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+#Thu Nov 28 21:52:27 BRST 2019
+base.0=C\:\\Users\\PytonDorme\\Desktop\\Projeto Android\\Desenvolvimento_Aplicacoes_Moveis-master\\MinhaEscola\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=D\:\\mobile\\Desenvolvimento_Aplicacoes_Moveis\\MinhaEscola\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+base.1=C\:\\Users\\PytonDorme\\Desktop\\Projeto Android\\Desenvolvimento_Aplicacoes_Moveis-master\\MinhaEscola\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex

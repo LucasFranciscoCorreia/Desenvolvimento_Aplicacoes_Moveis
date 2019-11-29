@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\mobile\\Desenvolvimento_Aplicacoes_Moveis\\MinhaEscola\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "C:\\Users\\PytonDorme\\Desktop\\Projeto Android\\Desenvolvimento_Aplicacoes_Moveis-master\\MinhaEscola\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\B_89\\.gradle\\caches\\transforms-2\\files-2.1\\fbf4b565bd4a65392bfa5e0c351c91c5\\appcompat-1.1.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\PytonDorme\\.gradle\\caches\\transforms-2\\files-2.1\\fbf4b565bd4a65392bfa5e0c351c91c5\\appcompat-1.1.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\B_89\\.gradle\\caches\\transforms-2\\files-2.1\\1dde211c2dffd88fe7412ea5a780ec09\\media-1.0.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\PytonDorme\\.gradle\\caches\\transforms-2\\files-2.1\\1dde211c2dffd88fe7412ea5a780ec09\\media-1.0.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

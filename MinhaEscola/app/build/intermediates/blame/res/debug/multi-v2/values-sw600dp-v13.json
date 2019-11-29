@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\mobile\\Desenvolvimento_Aplicacoes_Moveis\\MinhaEscola\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "outputFile": "C:\\Users\\PytonDorme\\Desktop\\Projeto Android\\Desenvolvimento_Aplicacoes_Moveis-master\\MinhaEscola\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\B_89\\.gradle\\caches\\transforms-2\\files-2.1\\fbf4b565bd4a65392bfa5e0c351c91c5\\appcompat-1.1.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\PytonDorme\\.gradle\\caches\\transforms-2\\files-2.1\\fbf4b565bd4a65392bfa5e0c351c91c5\\appcompat-1.1.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\B_89\\.gradle\\caches\\transforms-2\\files-2.1\\a409c7c34939158ea370177fde040d74\\material-1.0.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\PytonDorme\\.gradle\\caches\\transforms-2\\files-2.1\\a409c7c34939158ea370177fde040d74\\material-1.0.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",

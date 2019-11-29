@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Minha Escola</string>
+    <string name="action_search">Search School</string>
+    <string name="avaliar_escolar">Evaluate</string>
+    <string name="btn_avaliar_escola">Valuate this school</string>
+    <string name="carregar_comentarios">Load Coments</string>
+    <string name="details">Details</string>
+    <string name="endereco">Adress:</string>
+    <string name="galeria_de_fotos">Photos Gallery</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_home">My School</string>
+    <string name="menu_send">Send</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="nav_header_title">My School</string>
+    <string name="nome_escola">School Name:</string>
+    <string name="qualidade">Quality:</string>
+    <string name="rates">Evaluate</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="txt_proc_escola">Search your School</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_header_subtitle">minhaescola@android.com</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="action_settings">Settings</string>
+</resources>
