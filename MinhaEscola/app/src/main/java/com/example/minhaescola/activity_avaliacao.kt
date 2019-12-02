@@ -1,31 +1,22 @@
 package com.example.minhaescola
 
-import android.content.Intent
 import android.os.AsyncTask
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import android.widget.RatingBar
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.example.minhaescola.dao.Avaliacao
 import com.example.minhaescola.dao.Escola
-import com.example.minhaescola.dao.Rate
-import com.example.minhaescola.ui.home.HomeFragment
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
-import java.lang.Exception
 
 class activity_avaliacao : AppCompatActivity() {
 
-    private lateinit var escola: Escola
-
-    private inner class PostRatesToRemote(
-        val id: Long?,
-        val avaliacao: Avaliacao,
-        val activityAvaliacao: activity_avaliacao
-    ) : AsyncTask<Void, Void, MutableList<Avaliacao>>(){
+    private inner class PostRatesToRemote(val id: Long?, val avaliacao: Avaliacao) : AsyncTask<Void, Void, MutableList<Avaliacao>>(){
         var list : MutableList<Avaliacao> = ArrayList()
         override fun doInBackground(vararg p0: Void?): MutableList<Avaliacao> {
             val rates = FirebaseDatabase.getInstance().getReference("avaliacao/id_$id")
@@ -39,12 +30,19 @@ class activity_avaliacao : AppCompatActivity() {
 
                         }
                     }
-                    list.add(avaliacao)
-                    Log.i("post:", "going")
+                    if(!list.contains(avaliacao))
+                        list.add(avaliacao)
+                    else{
+                        for(rate: Avaliacao in list) {
+                            if (rate == avaliacao) {
+                                rate.rate = avaliacao.rate
+                                break
+                            }
+                        }
+                    }
                     val ref = FirebaseDatabase.getInstance().getReference("avaliacao").child("id_$id")
-                    val key = ref.push().key
+//                    val key = ref.push().key
                     ref.setValue(list)
-//                    activityAvaliacao.voltarMapa()
                     finish()
                 }
 
@@ -55,33 +53,33 @@ class activity_avaliacao : AppCompatActivity() {
         }
     }
 
+    private lateinit var escola: Escola
+    private var rate: Avaliacao? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_avaliacao)
         escola = intent.extras?.getSerializable("escola") as Escola
+        rate = intent.extras?.getSerializable("user") as Avaliacao?
         val btnAvaliar : Button = findViewById(R.id.btnAvaliar)
+        if(rate != null)
+            findViewById<RatingBar>(R.id.ratingQuality).rating = rate?.rate!!
         btnAvaliar.setOnClickListener {
             avaliar()
         }
-    }
-
-    fun voltarMapa(){
-//        val mapa = Intent(applicationContext, HomeFragment::class.java)
-//        startActivity(applicationContext, mapa, null)
     }
 
     fun avaliar(){
         val id : Long? = escola?.id
 
         val ratingbar: RatingBar = findViewById(R.id.ratingQuality)
+        if(rate == null) {
+            val rate = Avaliacao(MainActivity.user, ratingbar.rating)
 
-        val rate = Avaliacao(id, ratingbar.rating)
-
-        PostRatesToRemote(id, rate, this).execute()
-//        FirebaseDatabase.getInstance().getReference("avaliacao").push().setValue(ratelist)
-
-
+            PostRatesToRemote(id, rate).execute()
+        }else{
+            rate?.rate = ratingbar.rating
+            PostRatesToRemote(id, rate!!).execute()
+        }
     }
-
-
 }

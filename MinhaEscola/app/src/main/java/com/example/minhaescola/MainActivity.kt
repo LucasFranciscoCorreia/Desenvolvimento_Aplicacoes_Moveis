@@ -20,6 +20,9 @@ import com.google.firebase.auth.FirebaseAuth
 
 class MainActivity : AppCompatActivity() {
 
+    companion object{
+        lateinit var user: String
+    }
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var auth: FirebaseAuth
 
@@ -33,6 +36,8 @@ class MainActivity : AppCompatActivity() {
                         // Sign in success, update UI with the signed-in user's information
 
                         val user = auth.currentUser
+                        MainActivity.user = user!!.uid
+
                         Toast.makeText(this, "Id de Usuário: " + user!!.uid, Toast.LENGTH_SHORT).show();
                         //updateUI(user)
                     } else {
@@ -51,11 +56,6 @@ class MainActivity : AppCompatActivity() {
         val toolbar: Toolbar = findViewById(R.id.toolbar)
         setSupportActionBar(toolbar)
 
-//        val fab: FloatingActionButton = findViewById(R.id.fab)
-//        fab.setOnClickListener { view ->
-//            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-//                .setAction("Action", null).show()
-//        }
         val drawerLayout: DrawerLayout = findViewById(R.id.drawer_layout)
         val navView: NavigationView = findViewById(R.id.nav_view)
         val navController = findNavController(R.id.nav_host_fragment)

@@ -6,54 +6,54 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="22"
-8-->C:\Users\PytonDorme\Desktop\Projeto Android\Desenvolvimento_Aplicacoes_Moveis-master\MinhaEscola\app\src\main\AndroidManifest.xml
+8-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->C:\Users\PytonDorme\Desktop\Projeto Android\Desenvolvimento_Aplicacoes_Moveis-master\MinhaEscola\app\src\main\AndroidManifest.xml
+9-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml
 10    <!--
 11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
 12         Google Maps Android API v2, but you must specify either coarse or fine
 13         location permissions for the 'MyLocation' functionality.
 14    -->
 15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-15-->C:\Users\PytonDorme\Desktop\Projeto Android\Desenvolvimento_Aplicacoes_Moveis-master\MinhaEscola\app\src\main\AndroidManifest.xml:10:5-79
-15-->C:\Users\PytonDorme\Desktop\Projeto Android\Desenvolvimento_Aplicacoes_Moveis-master\MinhaEscola\app\src\main\AndroidManifest.xml:10:22-76
+15-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:10:5-79
+15-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:10:22-76
 16
 17    <!-- Include required permissions for Google Maps API to run. -->
 18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\23aeb3ef263e039d0d6e841dcb7ed4e9\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
-18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\23aeb3ef263e039d0d6e841dcb7ed4e9\play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\23aeb3ef263e039d0d6e841dcb7ed4e9\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\23aeb3ef263e039d0d6e841dcb7ed4e9\play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
 19    <uses-permission android:name="android.permission.INTERNET" />
-19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\23aeb3ef263e039d0d6e841dcb7ed4e9\play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
-19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\23aeb3ef263e039d0d6e841dcb7ed4e9\play-services-maps-17.0.0\AndroidManifest.xml:24:22-64
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\23aeb3ef263e039d0d6e841dcb7ed4e9\play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\23aeb3ef263e039d0d6e841dcb7ed4e9\play-services-maps-17.0.0\AndroidManifest.xml:24:22-64
 20
 21    <uses-feature
-21-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\23aeb3ef263e039d0d6e841dcb7ed4e9\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+21-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\23aeb3ef263e039d0d6e841dcb7ed4e9\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
 22        android:glEsVersion="0x00020000"
-22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\23aeb3ef263e039d0d6e841dcb7ed4e9\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\23aeb3ef263e039d0d6e841dcb7ed4e9\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
 23        android:required="true" />
-23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\23aeb3ef263e039d0d6e841dcb7ed4e9\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\23aeb3ef263e039d0d6e841dcb7ed4e9\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
 24
 25    <application
-25-->C:\Users\PytonDorme\Desktop\Projeto Android\Desenvolvimento_Aplicacoes_Moveis-master\MinhaEscola\app\src\main\AndroidManifest.xml:12:5-48:19
+25-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:12:5-48:19
 26        android:allowBackup="true"
-26-->C:\Users\PytonDorme\Desktop\Projeto Android\Desenvolvimento_Aplicacoes_Moveis-master\MinhaEscola\app\src\main\AndroidManifest.xml:13:9-35
+26-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:13:9-35
 27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-27-->[androidx.core:core:1.1.0] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\1859daf674031446c5f7db77cd4d69a2\core-1.1.0\AndroidManifest.xml:24:18-86
+27-->[androidx.core:core:1.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\1859daf674031446c5f7db77cd4d69a2\core-1.1.0\AndroidManifest.xml:24:18-86
 28        android:debuggable="true"
 29        android:icon="@mipmap/ic_launcher"
-29-->C:\Users\PytonDorme\Desktop\Projeto Android\Desenvolvimento_Aplicacoes_Moveis-master\MinhaEscola\app\src\main\AndroidManifest.xml:14:9-43
+29-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:14:9-43
 30        android:label="@string/app_name"
-30-->C:\Users\PytonDorme\Desktop\Projeto Android\Desenvolvimento_Aplicacoes_Moveis-master\MinhaEscola\app\src\main\AndroidManifest.xml:15:9-41
+30-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:15:9-41
 31        android:roundIcon="@mipmap/ic_launcher_round"
-31-->C:\Users\PytonDorme\Desktop\Projeto Android\Desenvolvimento_Aplicacoes_Moveis-master\MinhaEscola\app\src\main\AndroidManifest.xml:16:9-54
+31-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:16:9-54
 32        android:supportsRtl="true"
-32-->C:\Users\PytonDorme\Desktop\Projeto Android\Desenvolvimento_Aplicacoes_Moveis-master\MinhaEscola\app\src\main\AndroidManifest.xml:17:9-35
+32-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:17:9-35
 33        android:testOnly="true"
 34        android:theme="@style/AppTheme" >
-34-->C:\Users\PytonDorme\Desktop\Projeto Android\Desenvolvimento_Aplicacoes_Moveis-master\MinhaEscola\app\src\main\AndroidManifest.xml:18:9-40
+34-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:18:9-40
 35        <activity android:name="com.example.minhaescola.activity_avaliacao" />
-35-->C:\Users\PytonDorme\Desktop\Projeto Android\Desenvolvimento_Aplicacoes_Moveis-master\MinhaEscola\app\src\main\AndroidManifest.xml:20:9-65
-35-->C:\Users\PytonDorme\Desktop\Projeto Android\Desenvolvimento_Aplicacoes_Moveis-master\MinhaEscola\app\src\main\AndroidManifest.xml:20:19-53
+35-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:20:9-65
+35-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:20:19-53
 36        <!--
 37             The API key for Google Maps-based APIs is defined as a string resource.
 38             (See the file "res/values/google_maps_api.xml").
@@ -63,127 +63,127 @@
 42             You can define the keys for the debug and release targets in src/debug/ and src/release/.
 43        -->
 44        <meta-data
-44-->C:\Users\PytonDorme\Desktop\Projeto Android\Desenvolvimento_Aplicacoes_Moveis-master\MinhaEscola\app\src\main\AndroidManifest.xml:29:9-32:47
+44-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:29:9-32:47
 45            android:name="com.google.android.geo.API_KEY"
-45-->C:\Users\PytonDorme\Desktop\Projeto Android\Desenvolvimento_Aplicacoes_Moveis-master\MinhaEscola\app\src\main\AndroidManifest.xml:30:13-58
+45-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:30:13-58
 46            android:label="@string/app_name"
-46-->C:\Users\PytonDorme\Desktop\Projeto Android\Desenvolvimento_Aplicacoes_Moveis-master\MinhaEscola\app\src\main\AndroidManifest.xml:32:13-45
+46-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:32:13-45
 47            android:value="@string/google_maps_key" />
-47-->C:\Users\PytonDorme\Desktop\Projeto Android\Desenvolvimento_Aplicacoes_Moveis-master\MinhaEscola\app\src\main\AndroidManifest.xml:31:13-52
+47-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:31:13-52
 48
 49        <activity
-49-->C:\Users\PytonDorme\Desktop\Projeto Android\Desenvolvimento_Aplicacoes_Moveis-master\MinhaEscola\app\src\main\AndroidManifest.xml:34:9-43:20
+49-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:34:9-43:20
 50            android:name="com.example.minhaescola.MainActivity"
-50-->C:\Users\PytonDorme\Desktop\Projeto Android\Desenvolvimento_Aplicacoes_Moveis-master\MinhaEscola\app\src\main\AndroidManifest.xml:35:13-41
+50-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:35:13-41
 51            android:label="@string/app_name"
-51-->C:\Users\PytonDorme\Desktop\Projeto Android\Desenvolvimento_Aplicacoes_Moveis-master\MinhaEscola\app\src\main\AndroidManifest.xml:36:13-45
+51-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:36:13-45
 52            android:theme="@style/AppTheme.NoActionBar" >
-52-->C:\Users\PytonDorme\Desktop\Projeto Android\Desenvolvimento_Aplicacoes_Moveis-master\MinhaEscola\app\src\main\AndroidManifest.xml:37:13-56
+52-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:37:13-56
 53            <intent-filter>
-53-->C:\Users\PytonDorme\Desktop\Projeto Android\Desenvolvimento_Aplicacoes_Moveis-master\MinhaEscola\app\src\main\AndroidManifest.xml:38:13-42:29
+53-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:38:13-42:29
 54                <action android:name="android.intent.action.MAIN" />
-54-->C:\Users\PytonDorme\Desktop\Projeto Android\Desenvolvimento_Aplicacoes_Moveis-master\MinhaEscola\app\src\main\AndroidManifest.xml:39:17-69
-54-->C:\Users\PytonDorme\Desktop\Projeto Android\Desenvolvimento_Aplicacoes_Moveis-master\MinhaEscola\app\src\main\AndroidManifest.xml:39:25-66
+54-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:39:17-69
+54-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:39:25-66
 55
 56                <category android:name="android.intent.category.LAUNCHER" />
-56-->C:\Users\PytonDorme\Desktop\Projeto Android\Desenvolvimento_Aplicacoes_Moveis-master\MinhaEscola\app\src\main\AndroidManifest.xml:41:17-77
-56-->C:\Users\PytonDorme\Desktop\Projeto Android\Desenvolvimento_Aplicacoes_Moveis-master\MinhaEscola\app\src\main\AndroidManifest.xml:41:27-74
+56-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:41:17-77
+56-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:41:27-74
 57            </intent-filter>
 58        </activity>
 59        <activity
-59-->C:\Users\PytonDorme\Desktop\Projeto Android\Desenvolvimento_Aplicacoes_Moveis-master\MinhaEscola\app\src\main\AndroidManifest.xml:44:9-45:48
+59-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:44:9-45:48
 60            android:name="com.example.minhaescola.DetalhesEscola"
-60-->C:\Users\PytonDorme\Desktop\Projeto Android\Desenvolvimento_Aplicacoes_Moveis-master\MinhaEscola\app\src\main\AndroidManifest.xml:44:19-49
+60-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:44:19-49
 61            android:label="@string/details" />
-61-->C:\Users\PytonDorme\Desktop\Projeto Android\Desenvolvimento_Aplicacoes_Moveis-master\MinhaEscola\app\src\main\AndroidManifest.xml:45:13-46
+61-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:45:13-46
 62        <activity
-62-->C:\Users\PytonDorme\Desktop\Projeto Android\Desenvolvimento_Aplicacoes_Moveis-master\MinhaEscola\app\src\main\AndroidManifest.xml:46:9-47:44
+62-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:46:9-47:44
 63            android:name="com.example.minhaescola.Rating"
-63-->C:\Users\PytonDorme\Desktop\Projeto Android\Desenvolvimento_Aplicacoes_Moveis-master\MinhaEscola\app\src\main\AndroidManifest.xml:46:19-41
+63-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:46:19-41
 64            android:label="@string/rates" />
-64-->C:\Users\PytonDorme\Desktop\Projeto Android\Desenvolvimento_Aplicacoes_Moveis-master\MinhaEscola\app\src\main\AndroidManifest.xml:47:13-42
+64-->C:\Users\lfpgc\Documents\Desenvolvimento_Aplicacoes_Moveis\MinhaEscola\app\src\main\AndroidManifest.xml:47:13-42
 65        <!-- Needs to be explicitly declared on P+ -->
 66        <uses-library
-66-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\23aeb3ef263e039d0d6e841dcb7ed4e9\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+66-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\23aeb3ef263e039d0d6e841dcb7ed4e9\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
 67            android:name="org.apache.http.legacy"
-67-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\23aeb3ef263e039d0d6e841dcb7ed4e9\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+67-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\23aeb3ef263e039d0d6e841dcb7ed4e9\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
 68            android:required="false" />
-68-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\23aeb3ef263e039d0d6e841dcb7ed4e9\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+68-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\23aeb3ef263e039d0d6e841dcb7ed4e9\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
 69
 70        <service
-70-->[com.google.firebase:firebase-database:19.1.0] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\ff6e1f11726ddd28c4f81236f672853c\firebase-database-19.1.0\AndroidManifest.xml:29:9-35:19
+70-->[com.google.firebase:firebase-database:19.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\ff6e1f11726ddd28c4f81236f672853c\firebase-database-19.1.0\AndroidManifest.xml:29:9-35:19
 71            android:name="com.google.firebase.components.ComponentDiscoveryService"
-71-->[com.google.firebase:firebase-database:19.1.0] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\ff6e1f11726ddd28c4f81236f672853c\firebase-database-19.1.0\AndroidManifest.xml:30:13-84
+71-->[com.google.firebase:firebase-database:19.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\ff6e1f11726ddd28c4f81236f672853c\firebase-database-19.1.0\AndroidManifest.xml:30:13-84
 72            android:directBootAware="true"
-72-->[com.google.firebase:firebase-common:19.1.0] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\44872e3a464446aa712ccff729e80d19\firebase-common-19.1.0\AndroidManifest.xml:14:13-43
+72-->[com.google.firebase:firebase-common:19.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\44872e3a464446aa712ccff729e80d19\firebase-common-19.1.0\AndroidManifest.xml:14:13-43
 73            android:exported="false" >
-73-->[com.google.firebase:firebase-database:19.1.0] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\ff6e1f11726ddd28c4f81236f672853c\firebase-database-19.1.0\AndroidManifest.xml:31:13-37
+73-->[com.google.firebase:firebase-database:19.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\ff6e1f11726ddd28c4f81236f672853c\firebase-database-19.1.0\AndroidManifest.xml:31:13-37
 74            <meta-data
-74-->[com.google.firebase:firebase-database:19.1.0] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\ff6e1f11726ddd28c4f81236f672853c\firebase-database-19.1.0\AndroidManifest.xml:32:13-34:85
+74-->[com.google.firebase:firebase-database:19.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\ff6e1f11726ddd28c4f81236f672853c\firebase-database-19.1.0\AndroidManifest.xml:32:13-34:85
 75                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-75-->[com.google.firebase:firebase-database:19.1.0] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\ff6e1f11726ddd28c4f81236f672853c\firebase-database-19.1.0\AndroidManifest.xml:33:17-109
+75-->[com.google.firebase:firebase-database:19.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\ff6e1f11726ddd28c4f81236f672853c\firebase-database-19.1.0\AndroidManifest.xml:33:17-109
 76                android:value="com.google.firebase.components.ComponentRegistrar" />
-76-->[com.google.firebase:firebase-database:19.1.0] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\ff6e1f11726ddd28c4f81236f672853c\firebase-database-19.1.0\AndroidManifest.xml:34:17-82
+76-->[com.google.firebase:firebase-database:19.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\ff6e1f11726ddd28c4f81236f672853c\firebase-database-19.1.0\AndroidManifest.xml:34:17-82
 77            <meta-data
-77-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\88165a947aaeae73cac74378b8122493\firebase-auth-19.1.0\AndroidManifest.xml:36:13-38:85
+77-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\88165a947aaeae73cac74378b8122493\firebase-auth-19.1.0\AndroidManifest.xml:36:13-38:85
 78                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-78-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\88165a947aaeae73cac74378b8122493\firebase-auth-19.1.0\AndroidManifest.xml:37:17-109
+78-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\88165a947aaeae73cac74378b8122493\firebase-auth-19.1.0\AndroidManifest.xml:37:17-109
 79                android:value="com.google.firebase.components.ComponentRegistrar" />
-79-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\88165a947aaeae73cac74378b8122493\firebase-auth-19.1.0\AndroidManifest.xml:38:17-82
+79-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\88165a947aaeae73cac74378b8122493\firebase-auth-19.1.0\AndroidManifest.xml:38:17-82
 80        </service>
 81
 82        <activity
-82-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\88165a947aaeae73cac74378b8122493\firebase-auth-19.1.0\AndroidManifest.xml:24:9-31:50
+82-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\88165a947aaeae73cac74378b8122493\firebase-auth-19.1.0\AndroidManifest.xml:24:9-31:50
 83            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
-83-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\88165a947aaeae73cac74378b8122493\firebase-auth-19.1.0\AndroidManifest.xml:25:13-85
+83-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\88165a947aaeae73cac74378b8122493\firebase-auth-19.1.0\AndroidManifest.xml:25:13-85
 84            android:excludeFromRecents="true"
-84-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\88165a947aaeae73cac74378b8122493\firebase-auth-19.1.0\AndroidManifest.xml:26:13-46
+84-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\88165a947aaeae73cac74378b8122493\firebase-auth-19.1.0\AndroidManifest.xml:26:13-46
 85            android:exported="true"
-85-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\88165a947aaeae73cac74378b8122493\firebase-auth-19.1.0\AndroidManifest.xml:27:13-36
+85-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\88165a947aaeae73cac74378b8122493\firebase-auth-19.1.0\AndroidManifest.xml:27:13-36
 86            android:launchMode="singleTask"
-86-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\88165a947aaeae73cac74378b8122493\firebase-auth-19.1.0\AndroidManifest.xml:28:13-44
+86-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\88165a947aaeae73cac74378b8122493\firebase-auth-19.1.0\AndroidManifest.xml:28:13-44
 87            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
-87-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\88165a947aaeae73cac74378b8122493\firebase-auth-19.1.0\AndroidManifest.xml:29:13-102
+87-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\88165a947aaeae73cac74378b8122493\firebase-auth-19.1.0\AndroidManifest.xml:29:13-102
 88            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-88-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\88165a947aaeae73cac74378b8122493\firebase-auth-19.1.0\AndroidManifest.xml:30:13-72
+88-->[com.google.firebase:firebase-auth:19.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\88165a947aaeae73cac74378b8122493\firebase-auth-19.1.0\AndroidManifest.xml:30:13-72
 89
 90        <meta-data
-90-->[com.google.maps.android:android-maps-utils:0.5] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\132c51182192e5e5cce6afa82ea8130a\jetified-android-maps-utils-0.5\AndroidManifest.xml:8:9-10:69
+90-->[com.google.maps.android:android-maps-utils:0.5] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\42bc240d5d64d6e39fed0651841bfb3f\jetified-android-maps-utils-0.5\AndroidManifest.xml:8:9-10:69
 91            android:name="com.google.android.gms.version"
-91-->[com.google.maps.android:android-maps-utils:0.5] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\132c51182192e5e5cce6afa82ea8130a\jetified-android-maps-utils-0.5\AndroidManifest.xml:9:13-58
+91-->[com.google.maps.android:android-maps-utils:0.5] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\42bc240d5d64d6e39fed0651841bfb3f\jetified-android-maps-utils-0.5\AndroidManifest.xml:9:13-58
 92            android:value="@integer/google_play_services_version" />
-92-->[com.google.maps.android:android-maps-utils:0.5] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\132c51182192e5e5cce6afa82ea8130a\jetified-android-maps-utils-0.5\AndroidManifest.xml:10:13-66
+92-->[com.google.maps.android:android-maps-utils:0.5] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\42bc240d5d64d6e39fed0651841bfb3f\jetified-android-maps-utils-0.5\AndroidManifest.xml:10:13-66
 93
 94        <provider
-94-->[com.google.firebase:firebase-common:19.1.0] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\44872e3a464446aa712ccff729e80d19\firebase-common-19.1.0\AndroidManifest.xml:17:9-21:39
+94-->[com.google.firebase:firebase-common:19.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\44872e3a464446aa712ccff729e80d19\firebase-common-19.1.0\AndroidManifest.xml:17:9-21:39
 95            android:name="com.google.firebase.provider.FirebaseInitProvider"
-95-->[com.google.firebase:firebase-common:19.1.0] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\44872e3a464446aa712ccff729e80d19\firebase-common-19.1.0\AndroidManifest.xml:18:13-77
+95-->[com.google.firebase:firebase-common:19.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\44872e3a464446aa712ccff729e80d19\firebase-common-19.1.0\AndroidManifest.xml:18:13-77
 96            android:authorities="com.example.minhaescola.firebaseinitprovider"
-96-->[com.google.firebase:firebase-common:19.1.0] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\44872e3a464446aa712ccff729e80d19\firebase-common-19.1.0\AndroidManifest.xml:19:13-72
+96-->[com.google.firebase:firebase-common:19.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\44872e3a464446aa712ccff729e80d19\firebase-common-19.1.0\AndroidManifest.xml:19:13-72
 97            android:exported="false"
-97-->[com.google.firebase:firebase-common:19.1.0] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\44872e3a464446aa712ccff729e80d19\firebase-common-19.1.0\AndroidManifest.xml:20:13-37
+97-->[com.google.firebase:firebase-common:19.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\44872e3a464446aa712ccff729e80d19\firebase-common-19.1.0\AndroidManifest.xml:20:13-37
 98            android:initOrder="100" />
-98-->[com.google.firebase:firebase-common:19.1.0] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\44872e3a464446aa712ccff729e80d19\firebase-common-19.1.0\AndroidManifest.xml:21:13-36
+98-->[com.google.firebase:firebase-common:19.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\44872e3a464446aa712ccff729e80d19\firebase-common-19.1.0\AndroidManifest.xml:21:13-36
 99
 100        <activity
-100-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\34b452a90aeb0b6a405d6a30581bf1a0\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+100-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\34b452a90aeb0b6a405d6a30581bf1a0\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
 101            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-101-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\34b452a90aeb0b6a405d6a30581bf1a0\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+101-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\34b452a90aeb0b6a405d6a30581bf1a0\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
 102            android:exported="false"
-102-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\34b452a90aeb0b6a405d6a30581bf1a0\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+102-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\34b452a90aeb0b6a405d6a30581bf1a0\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
 103            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-103-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\34b452a90aeb0b6a405d6a30581bf1a0\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+103-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\34b452a90aeb0b6a405d6a30581bf1a0\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
 104
 105        <provider
-105-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\320abd056c52583514ea230521e9e0e5\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+105-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\320abd056c52583514ea230521e9e0e5\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
 106            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-106-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\320abd056c52583514ea230521e9e0e5\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+106-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\320abd056c52583514ea230521e9e0e5\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
 107            android:authorities="com.example.minhaescola.lifecycle-process"
-107-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\320abd056c52583514ea230521e9e0e5\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+107-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\320abd056c52583514ea230521e9e0e5\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
 108            android:exported="false"
-108-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\320abd056c52583514ea230521e9e0e5\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+108-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\320abd056c52583514ea230521e9e0e5\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
 109            android:multiprocess="true" />
-109-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\PytonDorme\.gradle\caches\transforms-2\files-2.1\320abd056c52583514ea230521e9e0e5\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+109-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\lfpgc\.gradle\caches\transforms-2\files-2.1\320abd056c52583514ea230521e9e0e5\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
 110    </application>
 111
 112</manifest>
